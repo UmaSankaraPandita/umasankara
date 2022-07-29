@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amu's Live class</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href=
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity=
+    "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+    
+        <script src=
+    "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity=
+    "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+        </script>
+        
+        <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity=
+    "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous">
+        </script>
+        
+        <script src=
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity=
+    "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous">
+        </script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-graduation-cap"></i> MyThoughts </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <!-- <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="#">courses +</a>
+                <ul>
+                    <li><a href="course-1.html">course 01</a></li>
+                    <li><a href="course-2.html">course 02</a></li>
+                    <li><a href="course-3.html">course 03</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Live classs +</a>
+                <ul>
+                    <li><a href="teachers.html">teachers</a></li>
+                    <li><a href="blog.html">blogs</a></li>
+                    <li><a href="live_class.html">Amu's live class</a></li>
+                </ul>
+            </li> -->
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <!-- <li><button type="button" class="btn btn-danger" ><a href="home.html"></a>Logout</button></li> -->
+            <li><a href="home.html" class="logout">Logout</a></li>
+          
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<section class="heading">
+    <h3>Today's live class</h3>
+    <p> <a href="home.html">home >></a> blogs </p>
+</section>
+
+<!-- blog section starts  -->
+<center>
+<!--<section class="live_class">-->
+<!-- insert where you want your wall (change the data-dowall "code" to the code from your wall) -->
+<!-- insert where you want your wall (change the data-dowall "code" to the code from your wall) -->
+<!-- insert where you want your wall (change the data-dowall "code" to the code from your wall) -->
+<!--<div data-dowall="62de8817c01a040036033326"></div>-->
+<!-- insert once before closing body tag -->
+<!--<script async src="https://cdn.dowall.tv/embed.js?event=62de8817c01a040036033324"></script>-->
+
+ <center>
+  
+                <div data-dowall="62daeff04988e800198ad35b"></div>
+                <script async src="https://cdn.dowall.tv/embed.js?event=62daeff04988e800198ad359"></script>   
+            </i>
+    </center>
+            
+            
+    <body>
+        <!-- <nav class="navbar navbar-expand-lg
+                    navbar-light bg-success">
+            <a class="navbar-brand" href="#">
+                <p style="font-size: 30px;">
+                    THE NOTES TAKER
+                </p>
+    
+            </a>
+        </nav> -->
+    
+        <div class="container my-3">
+            <h1>Take your Notes here</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Add a Note
+                    
+                    </h5>
+                    <div class="form-group">
+                        <textarea class="form-control"
+                            id="addTxt" rows="3">
+                        </textarea>
+                    </div>
+                    <button class="btn btn-primary"
+                        id="addBtn" style=
+                        "background-color:green">
+                        Add Note
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <h1>Your Notes</h1>
+            <hr>
+            
+            <div id="notes" class=
+                "row container-fluid">
+            </div>
+        </div>
+    
+        <script src="gfg.js"></script>
+    </body>
+    
+</center>
+</section>
+<style>
+    .container {
+        font-size: 23px;
+        background-color: blanchedalmond;
+        border: 2px solid grey;
+        padding: 34px;
+        margin: 4px;
+        text-align: center;
+    }
+
+    #time {
+        font-weight: bold;
+    }
+</style>
+
+<body><center>
+    <div class="container">
+        Current time is <span id="time"></span>
+    </div>
+</center>
+    <script>
+        console.log("This is date and time tutorial");
+        let now = new Date();
+        console.log(now);
+
+        let dt = new Date(1000);
+        console.log(dt);
+
+        // let newDate = new Date("2029-09-30");
+        // console.log(newDate)
+
+        // let newDate = new Date(year, month, date, hours, minutes, seconds, milliseconds);
+        let newDate = new Date(3020, 4, 6, 9, 3, 2, 34);
+        console.log(newDate);
+
+        let yr = newDate.getFullYear();
+        console.log("The year is ", yr);
+
+        let dat = newDate.getDate();
+        console.log("The date is ", dat);
+
+        let month = newDate.getMonth();
+        console.log("The month is ", month);
+
+        let hours = newDate.getHours();
+        console.log("The hours is ", hours);
+
+        newDate.setDate(8);
+        newDate.setMinutes(29);
+        console.log(newDate)
+        setInterval(updateTime, 1000);
+
+        function updateTime() {
+            time.innerHTML = new Date();
+        }
+
+    </script>
+
+<!-- blog section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>explore</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="course-1.html"> <i class="fas fa-arrow-right"></i> course-1 </a>
+            <a href="course-2.html"> <i class="fas fa-arrow-right"></i>course-2 </a>
+            <a href="course-3.html"> <i class="fas fa-arrow-right"></i> course-3 </a>
+            <a href="teachers.html"> <i class="fas fa-arrow-right"></i> teachers </a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog </a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>categories</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> web design </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> graphic design</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> UI / UX design</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> seo marketing</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> digital marketing</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> email marketing</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> all courses</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> feedback </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> help center </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> certificates </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> newsletter </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            <a href="#"> <i class="fab fa-github"></i> github </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>Uma Sankara Pandita </span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
